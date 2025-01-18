@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Ceratium', 'Prorocentrum-minimum', 'Pyrodinium bahamense var. compressum', 'Thalassionema-nitzschioides']
+
+roboflow:
+  workspace: plankton-8sxbc
+  project: plankton-wccld
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plankton-8sxbc/plankton-wccld/dataset/5
